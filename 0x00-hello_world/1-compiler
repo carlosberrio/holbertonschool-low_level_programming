@@ -1,2 +1,2 @@
 #!/bin/bash
--c main.c main.o
+-c main.o
