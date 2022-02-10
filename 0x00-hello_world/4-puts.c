@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main(void) {
   /*
 Punto 4:"Programming is like building a multilingual puzzle"
  */
