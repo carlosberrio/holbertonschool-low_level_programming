@@ -2,7 +2,7 @@
 /**
  *main inicio del script compilable
  *
- *return siempre en 0
+ *Return siempre en 0
  */
 int main(void)
 {
