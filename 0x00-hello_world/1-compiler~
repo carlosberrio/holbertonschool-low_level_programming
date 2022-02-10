@@ -1,0 +1,3 @@
+#!/bin/bash
+-c main.c main.o
+
