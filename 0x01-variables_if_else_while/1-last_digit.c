@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *main- escribir número aleatorio positivo negativo o cero
- * Return : siempre 0
+ * main - asigna un numero a la variable cada vez que se ejecute
+ * Return: siempre 0
 */
+
 int main(void)
 {
 	int n;
