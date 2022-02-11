@@ -6,6 +6,7 @@
  * main - escribir número aleatorio positivo negativo o cero
  * Return : siempre 0
 */
+
 int main(void)
 {
 	int n;
