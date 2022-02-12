@@ -13,7 +13,7 @@ for (num = 48; num <= 57; num++)
 putchar(num);
 putchar(',');
 putchar(32);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
