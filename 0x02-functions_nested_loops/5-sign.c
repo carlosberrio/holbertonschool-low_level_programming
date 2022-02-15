@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - escriba una función que imprima el signo de un numero
+ * print_sign - escriba una función que imprima el signo de un numero
+ * @n: variable
  * Return: 1 e imprime + si es mayor que 0
  * 0 e imprime 0 si es igual a 0
  * -1 e imprime - si es menor que 0
