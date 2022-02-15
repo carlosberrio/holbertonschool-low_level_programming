@@ -1,0 +1,9 @@
+#include "main.h"
+/**
+ * Main - escriba una función que calcule el valor absoluto de un entero
+ * Return: valor absoluto de un entero
+ */
+int _abs(int ab)
+{
+	return (ab * ((ab > 0) - (ab < 0)));
+}
