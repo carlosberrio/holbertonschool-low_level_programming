@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - imprimir función que verifica el carácter en minúscula
+ * _islower - imprimir función que verifica el carácter en minúscula
  * Return: siempre 0
 */
 
