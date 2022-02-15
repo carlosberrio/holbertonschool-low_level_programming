@@ -3,7 +3,6 @@
  * print_alphabet_x10 - mprimir alfabeto en minuscula x 10 veces
  * Return: siempre 0
 */
-
 void print_alphabet_x10(void)
 {
 int A;
