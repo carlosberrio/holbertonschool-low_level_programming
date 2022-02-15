@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * Main - escriba una función que escriba el último dígito de un número
+ * print_last_digit - función que escriba el último dígito de un número
+ * @n: variable
  * Return: el último dígito de un número
  */
 
-int print_last_digit(int nld)
+int print_last_digit(int n)
 {
 int a;
-a = (nld % 10);
+a = (n % 10);
 if (a < 0)
 {
 a = (-1 * a);
