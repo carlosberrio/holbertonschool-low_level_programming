@@ -13,6 +13,6 @@ for (A = 97; A < 123; A++)
 {
 _putchar(A);
 }
-}
 _putchar('\n');
+}
 }
