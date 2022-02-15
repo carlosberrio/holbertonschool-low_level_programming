@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - mprimir alfabeto en minuscula
+ * print_alphabet - mprimir alfabeto en minuscula
  * Return: siempre 0
 */
 
