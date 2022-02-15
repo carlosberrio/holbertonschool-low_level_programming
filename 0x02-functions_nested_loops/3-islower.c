@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - imprimir función que verifica el carácter en minúscula
+ * @c: The character to be checked
  * Return: siempre 0
 */
 
