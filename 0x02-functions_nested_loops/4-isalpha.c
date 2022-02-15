@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - imprimir función que verifica el carácter en minúscula
+ * @c: variable
  * Return: siempre 0
 */
 
