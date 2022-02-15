@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main: imprimir la palabra _putchar con un espacio
+ * main - imprimir la palabra _putchar con un espacio
  * Return: siempre 0
 */
 
