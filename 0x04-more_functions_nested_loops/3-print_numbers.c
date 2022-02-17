@@ -2,15 +2,14 @@
 #include <stdio.h>
 
 /**
- * mprint_number - imprime números 
- * @a: variable
+ * print_numbers - imprime números
  * Return: números
  */
 void print_numbers(void)
 {
 int a;
-{
-	for (a = 48; a <=57; a++)
+	for (a = 48; a <= 57; a++)
+	{
 		_putchar(a);
 }
 _putchar('\n');
