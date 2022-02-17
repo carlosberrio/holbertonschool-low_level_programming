@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _mul - multiplicación
+ * mul - multiplicación
  * @a: variable
  * @b: vriable
  * Return: multiplicación
