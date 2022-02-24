@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - función que concatena 2 cadenas
+ * _strncat - función que concatena 2 cadenas
  * @dest: cadena
  * @src: cadena
  * @n: entero
@@ -21,7 +21,7 @@ while (src[b] != '\0')
 {
 b++;
 }
-for (k = 0; (k <= b) && (k < n); k++)
+for (k = 0; (k <= b) &&(k < n); k++)
 {
 dest[a] = src[k];
 a++;
