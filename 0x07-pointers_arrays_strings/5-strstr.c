@@ -1,29 +1,32 @@
 #include "main.h"
 
 /**
- * _strpbrk - función que localice una subcadena
- * @s: caracter
- * @accept: caracter
- * Return: 0
+ * _strstr - función que localice subcadena
+ * @haystack: puntero
+ * @needle: puntero
+ * Return: NULL
  */
 
-char *_strpbrk(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
-int k = 0;
-int n;
+int i;
 
-while (s[k] != '\0')
+if (*needle == 0)
+return (haystack);
+
+while (*haystack)
 {
-n = 0;
-while (accept[n] != '\0')
+i = 0;
+
+if (haystack[i] == needle[i])
 {
-if (s[k] == accept[n])
-{
-return (s + k);
+do {
+if (needle[i + 1] == '\0')
+return (haystack);
+i++;
+} while (haystack[i] == needle[i]);
 }
-n++;
+haystack++;
 }
-k++;
-}
-return (0);
+return ('\0');
 }
