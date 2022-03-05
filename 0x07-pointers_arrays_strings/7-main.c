@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 #include <stdio.h>
 
@@ -24,3 +25,28 @@ int main(void)
     print_diagsums((int *)c5, 5);
     return (0);
 }
+=======
+#include "main.h"
+#include <stdio.h>
+
+/**
+ *  * main - check the code
+ *   *
+ *    * Return: Always 0.
+ *     */
+int main(void)
+{
+    char board[8][8] = {
+            {'r', 'k', 'b', 'q', 'k', 'b', 'k', 'r'},
+            {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
+            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+            {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
+            {'R', 'K', 'B', 'Q', 'K', 'B', 'K', 'R'},
+        };
+    print_chessboard(board);
+    return (0);
+}
+>>>>>>> ecc962672e93369557c2f9fe767026efb85aedb7
