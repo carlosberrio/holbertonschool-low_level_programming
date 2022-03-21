@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * add - función que sume 2 enteros
- * @a: The first integer to be added.
- * @b: The second integer to be added.
+ * @a: el primer entero a sumar.
+ * @b: el segundo entero a sumary.
  * Return: suma 2 enteros
  */
 
