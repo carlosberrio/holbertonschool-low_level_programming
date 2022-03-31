@@ -1,19 +1,17 @@
 #include "lists.h"
-
 /**
- * print_listint - a function that prints the elements of a listint_t list.
+ * listint_len - a function that returns the number of elements in a linked
  * @h: Node
  * Return: size_t
  */
-size_t print_listint(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
-size_t count = 0;
+size_t sum = 0;
 
 while (h != NULL)
 {
-printf("%i\n", h->n);
+sum++;
 h = h->next;
-count++;
 }
-return (count);
+return (sum);
 }
