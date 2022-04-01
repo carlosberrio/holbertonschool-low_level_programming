@@ -32,7 +32,3 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
 #endif /* LISTS_H */
-<<<<<<< HEAD
-=======
-
->>>>>>> 78c4d5601a3d06952e8b65fc96817dfb6fe39aa6
