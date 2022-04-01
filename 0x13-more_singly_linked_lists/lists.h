@@ -7,18 +7,16 @@
 
 
 /**
- * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
- *
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: point to the next node
  * Description: singly linked list node structure
  * for Holberton project
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+int n;
+struct listint_s *next;
 } listint_t;
 
 int _putchar(char c);
@@ -35,3 +33,4 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
 #endif /* LISTS_H */
+
