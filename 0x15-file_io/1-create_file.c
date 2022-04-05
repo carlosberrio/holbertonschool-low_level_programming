@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - 
+ * create_file - function that creates a file.
  * @filename: pathname to the file
  * @text_content:content to write in the nre file
  * Return: 1  on succes, -1 if fails
