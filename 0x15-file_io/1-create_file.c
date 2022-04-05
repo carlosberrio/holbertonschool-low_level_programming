@@ -10,10 +10,10 @@
 int create_file(const char *filename, char *text_content)
 
 {
-	int filedes;
-    int writed;
-    int size = 0;
-    int error = -1;
+int filedes;
+int writed;
+int size = 0;
+int error = -1;
 
 	/* Check for a valid filename, different to NULL*/
 	if (!filename)
