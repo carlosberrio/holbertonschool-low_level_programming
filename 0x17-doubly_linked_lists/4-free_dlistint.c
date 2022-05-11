@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_dlistint - frees a linked list
+ * free_dlistint - frees a linked list task4
  * @head: head of the linked list
  *
  * Return: void
