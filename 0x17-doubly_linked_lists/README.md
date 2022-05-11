@@ -27,6 +27,7 @@
 ### Resources:
 * https://www.youtube.com/watch?v=k0pjD12bzP0
 * https://codeforwin.org/2015/10/doubly-linked-list-data-structure-in-c.html
+* https://conclase.net/c/edd/cap5
 * [Doubly Linked List - Implementation in C/C++](https://www.youtube.com/watch?v=VOQNf1VxU3Q)
 * [C Linked List : Exercise-11 with Solution](https://www.w3resource.com/c-programming-exercises/linked_list/c-linked_list-exercise-11.php)
 
