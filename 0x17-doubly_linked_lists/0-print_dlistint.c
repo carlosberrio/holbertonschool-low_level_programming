@@ -2,7 +2,7 @@
 
 /**
  * print_listint - this is main funtion
- * @h: this is h
+ * @h: pointer
  * Return: size_t
  */
 
