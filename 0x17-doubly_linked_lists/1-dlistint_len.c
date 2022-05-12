@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- *listint_len - counts number of elements in a linked list
+ *dlistint_len - counts number of elements in a linked list
  *@h: list of elements to count
  *
  *Return: Number of elements in the list.
@@ -16,4 +16,3 @@ for (; h; el++)
 h = h->next;
 return (el);
 }
-
