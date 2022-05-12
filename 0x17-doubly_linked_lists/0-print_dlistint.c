@@ -1,11 +1,12 @@
 #include "lists.h"
 
 /**
- * print_listint - this is main funtion
+ * print_dlistint - this is main funtion
  * @h: pointer
- * Return: size_t
+ * Return: counter
  */
 size_t print_dlistint(const dlistint_t *h)
+
 {
     size_t counter = 0;
 
