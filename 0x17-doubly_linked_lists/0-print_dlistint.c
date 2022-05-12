@@ -7,10 +7,13 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-int count = 0;
-for (; h; h = h->next, count++)
-{
-printf("%d\n", h->n);
-}
-return (count);
+    size_t counter = 0;
+
+    while (h != NULL)
+    {
+        printf("%d\n", h->n);
+        counter++;
+        h = h->next;
+    }
+    return (counter);
 }
