@@ -5,7 +5,6 @@
  * @h: pointer
  * Return: size_t
  */
-
 size_t print_dlistint(const dlistint_t *h)
 {
 int count = 0;
