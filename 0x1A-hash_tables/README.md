@@ -1,6 +1,6 @@
-### 0x1A. C - Hash tables
+# 0x1A. C - Hash tables
 
-## General
+### General
 What is a hash function
 What makes a good hash function
 What is a hash table, how do they work and how to use them
@@ -9,4 +9,5 @@ What are the advantages and drawbacks of using hash tables
 What are the most common use cases of hash tables
 
 Carlos Alberto Berrío M. [https://github.com/carlosberrio]
+
 Medellín, Junio de 2022. Holberton Low level Programming.
